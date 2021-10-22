@@ -13,12 +13,13 @@ body {
     flex-direction: column;
     background-color: #1f2937;
     color: white;
-    padding: 10px 60px 10px 60px;
+    padding: 20px 300px 10px 300px;
 }
 
 .TB {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -33,15 +34,50 @@ ul {
 .HeaderBody {
     display: flex;
     flex-direction: row;
-    margin: 50px;
-    gap: 25px;
+    justify-content: space-between;
+    margin: 50px 0 50px 0;
+    gap: 20px;
 }
+
+.Header-Image {
+    /*width: 350px;*/
+    height: 100px;
+    flex: 1 0 auto;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.4);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.HContent-Head {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    word-wrap: break-word;
+}
+
+.HContent-Body {
+    font-size: 15px;
+}
+
+.HeadC {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/*2nd Box styling*/
 
 .Content-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+    padding: 40px 20px 40px 20px;
 }
 
 .CB {
@@ -57,12 +93,32 @@ ul {
     align-items: center;
 }
 
+.ImgPrp {
+    border-color: #3882f6;
+    border-width: 3px;
+    border-style: solid;
+    height: 125px;
+    width: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/*Quote stuff*/
+
 .QuoteBG {
     background-color: #E5E7EB;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
+/*Content 3*/
 
 .OFTC {
     display: flex;
@@ -72,30 +128,4 @@ ul {
 
 .FTC {
     background-color: #3882f6;
-}
-
-.Header-Image {
-    width: 250px;
-    height: 100px;
-    flex: 1 0 auto;
-    display: flex;
-    background-color: rgba(255, 255, 255, 0.4);
-    align-items: center;
-    padding: 50px;
-}
-
-.HContent-Head {
-    font-size: 20px;
-    font-weight: 900;
-}
-
-.HContent-Body {
-    font-size: 15px;
-}
-
-.HeadC {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
 }
