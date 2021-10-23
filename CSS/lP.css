@@ -104,6 +104,7 @@ ul {
     flex-direction: row;
     gap: 1%;
     justify-content: center;
+    padding: 0 400px 0 400px;
 }
 
 .Items {
@@ -134,18 +135,36 @@ ul {
     color: #1f2937
 }
 
+.ImgDesc {
+    font-size: 12px;
+}
+
 
 /*Quote stuff*/
 
 .QuoteBG {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 5% 400px 5% 400px;
 }
 
-.ImgDesc {
-    font-size: 12px;
+.Quote1 {
+    width: 100%;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    flex: 1 0 auto;
+}
+
+.Quote2 {
+    width: 100%;
+    justify-content: right;
+    font-weight: 1000;
+    text-align: right;
 }
 
 
@@ -155,8 +174,33 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 }
 
 .FTC {
     background-color: #3882f6;
+    display: flex;
+    padding: 40px 80px 40px 80px;
+    border-radius: 10px;
+}
+
+.FTButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 20px;
+}
+
+
+/*Footer*/
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 24px;
+    color: #f9faf8;
 }
