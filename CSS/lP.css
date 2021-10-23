@@ -36,13 +36,14 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     margin: 50px 0 50px 0;
-    gap: 20px;
+    gap: 15px;
 }
 
 .Header-Image {
     /*width: 350px;*/
     height: 100px;
-    flex: 1 0 auto;
+    width: 40%;
+    flex: 0 0 auto;
     display: flex;
     background-color: rgba(255, 255, 255, 0.4);
     align-items: center;
@@ -67,6 +68,18 @@ ul {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    height: 40%;
+    width: 40%;
+}
+
+.HeadLogo {
+    font-size: 24px;
+    color: #f9faf8
+}
+
+.HL {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
@@ -80,10 +93,16 @@ ul {
     padding: 40px 20px 40px 20px;
 }
 
+.CBMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .CB {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 1%;
     justify-content: center;
 }
 
@@ -91,6 +110,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 15%;
+    text-align: center;
 }
 
 .ImgPrp {
@@ -103,8 +124,14 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
+}
+
+.InfoHead {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937
 }
 
 
@@ -115,6 +142,10 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ImgDesc {
+    font-size: 12px;
 }
 
 
