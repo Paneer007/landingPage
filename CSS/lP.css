@@ -179,9 +179,11 @@ ul {
 
 .FTC {
     background-color: #3882f6;
+    color: #f9faf8;
     display: flex;
     padding: 40px 80px 40px 80px;
     border-radius: 10px;
+    gap: 20px;
 }
 
 .FTButton {
@@ -190,7 +192,14 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 0 0 20px;
+}
+
+.BtnPrp {
+    background-color: #3882f6;
+    color: #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
 }
 
 
@@ -203,4 +212,9 @@ ul {
     background-color: #1f2937;
     padding: 24px;
     color: #f9faf8;
+}
+
+.FTHead {
+    font-size: 18px;
+    font-weight: 700;
 }
